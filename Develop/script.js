@@ -34,9 +34,14 @@ function generatePassword() {
     alert("Your password must contain one of the previously mentioned characters. Try again.");
     return generatePassword();
   };
-  for(var i=0; i<len; i++){
-    password += characters.charAt(Math.floor(Math.random()*(characters.length)));
-  }
+  if(confirm("Are you sure all your selections are correct?")){
+    for(var i=0; i<len; i++){
+      password += characters.charAt(Math.floor(Math.random()*(characters.length)));
+    }
+  } else{
+    alert("Selections not confirmed. Please try again.");
+    return generatePassword();
+  };
   return password;
 }
 
