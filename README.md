@@ -4,7 +4,7 @@ This application will generate a random password of lengths between 8 and 128 ch
 
 ## Deployed Application
 
-You can find a link to the deployed application [here.](https://bobefett-qwert12.github.io/Challenge-3/)
+You can find a link to the deployed application [here.](https://bobefett-qwert12.github.io/Random-Password_Challenge-3/)
 
 ## Screenshot
 
